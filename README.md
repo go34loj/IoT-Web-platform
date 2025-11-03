@@ -96,7 +96,6 @@ The system follows a **layered IoT architecture**:
 ### Frontend
 - **[React 19.1](https://reactjs.org/)** – UI library with hooks and Context API
 - **[Vite 6.3](https://vitejs.dev/)** – Lightning-fast build tool
-- **[React Router DOM 7.6](https://reactrouter.com/)** – Client-side routing
 - **[Leaflet](https://leafletjs.com/) + React-Leaflet** – Interactive maps
 - **[Chart.js 4.5](https://www.chartjs.org/)** – Data visualization
 - **[ApexCharts](https://apexcharts.com/)** – Advanced charting
@@ -457,21 +456,11 @@ This means you can freely:
 
 | Name | Role | GitHub |
 |------|------|--------|
-| **Gloria Asenath Kiawa** | IoT Hardware & Data Collection | [@gloriakiawa](https://github.com/gloriakiawa) |
-| **Margarita Zykova** | Web Development & Data Visualization | [@ritaMZ](https://github.com/ritaMZ) |
+| **Gloria Asenath Kiawa** | IoT Hardware & Backend | [gloriak9](https://github.com/gloriak9) |
+| **Margarita Zykova** | Data Visualization & Frontend | [@go34loj](https://github.com/go34loj) |
 
-**Supervisor:**  
-Technical University of Munich – Chair of Geoinformatics
-
----
-
-## 🙏 Acknowledgments
-
-- **Technical University of Munich** – For providing resources and guidance
-- **Stadtwerke München (SWM)** – For LoRaWAN network access
-- **The Things Network (TTN)** – For community LoRaWAN infrastructure
-- **52°North** – For FROST Server (SensorThings API implementation)
-- **Open-source community** – For the amazing tools and libraries
+**Supervisors:**  
+M.Sc. Joseph Mureithi Gitahi, M.Sc. Benedikt Schwab, Univ.-Prof. Dr. rer. nat. Thomas H. Kolbe
 
 ---
 
