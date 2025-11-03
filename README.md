@@ -155,8 +155,6 @@ Before you begin, ensure you have the following installed:
 Create a `.env` file in the `backend` directory:
 
 ```env
-# MongoDB Connection
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/safewalk?retryWrites=true&w=majority
 
 # Server Configuration
 PORT=5000
