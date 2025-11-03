@@ -30,13 +30,11 @@
 - [API Endpoints](#api-endpoints)
 - [Deployment](#deployment)
 - [Testing](#testing)
-- [Results](#results)
 - [Challenges & Solutions](#challenges--solutions)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
+- [Results Summary](#results-summary)
 - [License](#license)
 - [Team](#team)
-- [Acknowledgments](#acknowledgments)
+- [References](#references)
 
 ---
 
@@ -371,10 +369,9 @@ Sensors → Seeeduino → LoRa Radio → Gateway → TTN/SWM → FROST Server �
 ### Field Testing
 - **Location:** Moosfeld district, Munich, Germany
 - **Duration:** 3-hour nighttime walk
-- **Date:** October 2025
-- **Distance:** ~5 km pedestrian routes
+- **Date:** August 2025
 
-### Results
+### IoT device performance
 ✅ **LoRaWAN Performance:** Stable connectivity throughout test area  
 ✅ **GPS Accuracy:** ±5 meters  
 ✅ **Battery Life:** 6+ hours continuous operation  
@@ -385,21 +382,6 @@ Sensors → Seeeduino → LoRa Radio → Gateway → TTN/SWM → FROST Server �
 - Real-time monitoring via **Grafana dashboards**
 - Post-processing analysis in **web application**
 - Cross-validation with city lighting infrastructure data
-
----
-
-## 📊 Results
-
-### Key Findings
-- 🌃 **Uneven Illumination:** Identified 15+ poorly lit pedestrian crossings
-- 📈 **Environmental Correlation:** Temperature drops of 2-3°C correlated with humidity peaks near open fields
-- 🗺️ **Coverage:** Successfully mapped 5 km² of urban area
-- 💡 **Lighting Gaps:** 23% of surveyed routes below recommended 10 lux threshold
-
-### Visualizations
-- **Heatmaps** showing illumination distribution
-- **Time-series charts** correlating temperature and humidity
-- **Geospatial analysis** of sensor data points
 
 ---
 
@@ -419,17 +401,6 @@ Sensors → Seeeduino → LoRa Radio → Gateway → TTN/SWM → FROST Server �
 - Identified uneven illumination along pedestrian routes.  
 - Confirmed correlation between **temperature drops** and **humidity peaks** near open fields.  
 - Demonstrated technical feasibility of mobile IoT data collection for citizen-engaged smart-city services.  
-
----
-
-## 🧱 Challenges & Solutions
-| Challenge | Resolution |
-|------------|-------------|
-| Heavy, non-ergonomic sensor box | Designed and 3D-printed new enclosure |
-| Grafana dashboard integration | Reimplemented with Chart.js + ApexCharts |
-| Insufficient TSL2561 light sensor | Replaced with high-sensitivity VEML7700 |
-| GPS rounding due to Cayenne LPP | Implemented heatmap visualization |
-| Time-zone offset in data timestamps | Reconstructed timing using photographs |
 
 ---
 
@@ -474,7 +445,7 @@ For complete citations and bibliography, please refer to:
 
 <div align="center">
 
-**[⬆ Back to Top](#safewalkmunich)**
+**[⬆ Back to Top](#safewalkmunich-iot-for-citizen-engagement-in-smart-cities)**
 
 Made with ❤️ in Munich 🇩🇪
 
